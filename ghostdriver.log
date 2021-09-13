@@ -1,0 +1,16 @@
+[INFO  - 2021-09-13T05:23:13.498Z] GhostDriver - Main - running on port 54047
+[INFO  - 2021-09-13T05:23:13.943Z] Session [b17ebe30-1452-11ec-b704-c14a72766fac] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-09-13T05:23:13.943Z] Session [b17ebe30-1452-11ec-b704-c14a72766fac] - page.customHeaders:  - {}
+[INFO  - 2021-09-13T05:23:13.943Z] Session [b17ebe30-1452-11ec-b704-c14a72766fac] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-09-13T05:23:13.943Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b17ebe30-1452-11ec-b704-c14a72766fac
+[ERROR - 2021-09-13T05:25:13.057Z] Session [b17ebe30-1452-11ec-b704-c14a72766fac] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '$("#Aestopbar").fadein(5000)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-09-13T05:25:13.057Z] Session [b17ebe30-1452-11ec-b704-c14a72766fac] - page.onError - stack:
+  topbaranimate (https://hrcloud.myadrenalin.com/adrenalin/:812)
+  onload (https://hrcloud.myadrenalin.com/adrenalin/:251)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-09-13T05:25:17.959Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1631510717927
+
+  phantomjs://platform/console++.js:263 in error
