@@ -1,0 +1,13 @@
+[INFO  - 2021-10-21T13:40:26.170Z] GhostDriver - Main - running on port 37009
+[INFO  - 2021-10-21T13:40:27.113Z] Session [7325e060-3274-11ec-b048-1d4df8abb8d3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-10-21T13:40:27.113Z] Session [7325e060-3274-11ec-b048-1d4df8abb8d3] - page.customHeaders:  - {}
+[INFO  - 2021-10-21T13:40:27.113Z] Session [7325e060-3274-11ec-b048-1d4df8abb8d3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-10-21T13:40:27.113Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7325e060-3274-11ec-b048-1d4df8abb8d3
+[ERROR - 2021-10-21T13:40:28.490Z] Session [7325e060-3274-11ec-b048-1d4df8abb8d3] - page.onError - msg: TypeError: undefined is not a function (evaluating '$("#Aestopbar").fadein(5000)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-10-21T13:40:28.490Z] Session [7325e060-3274-11ec-b048-1d4df8abb8d3] - page.onError - stack:
+  topbaranimate (https://hrcloud.myadrenalin.com/adrenalin/:812)
+  onload (https://hrcloud.myadrenalin.com/adrenalin/:251)
+
+  phantomjs://platform/console++.js:263 in error
