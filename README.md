@@ -14,28 +14,43 @@ Rules of XEUX:
 > This platform is created for the peace, happiness, rights and solutions of employees all over the planet. (and for Fun, of course ':) )
 
 
+.
+.
+.
+
 Cron settings and commands to install the script:
 
-first go to crontab file
+first go to crontab file:
+
 $ sudo nano /etc/crontab
 
-Add these elow lines(example. change accrodingly)
+Add these elow lines(example. change accrodingly):
+
 ############### Adrenalin Signin and signout shit ###############
+
 45 9    * * *   root    python3 /home/pratik/Desktop/adrenalin_attendence_worker-main/attendence_shit.py
+
 45 19   * * *   root    python3 /home/pratik/Desktop/adrenalin_attendence_worker-main/attendence_shit.py
+
 ##################################################################
 
 <comment headline>
+  
   time_scheduling user <script>    // for sign-in
+  
   time_scheduling user <script>    // for sign-out
-<comment-end>
 
-  Here <script> is : python3 path of script    // remember attendence_shit.py is the main file that needs to be called/executed for automation
+<comment-end>
+  
+Here <script> is : python3 path of script    // remember attendence_shit.py is the main file that needs to be called/executed for automation
   
 After this:
+  
   Restart the cron service using the following commands:
-    $ sudo service cron reload
-    $ systemctl restart cron
+  
+  $ sudo service cron reload
+    
+  $ systemctl restart cron
   
 Done!
   
